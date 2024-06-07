@@ -1,0 +1,79 @@
+#mode{
+	text-align: right;
+}
+.clickmode{
+	background-color: white;
+	color:rgb(30, 71, 219);
+	font-weight:700;}
+
+body {
+    padding: 10px;
+    margin: 0;   
+    background-color: black;
+    text-align: center;
+}
+
+
+.player1{
+	margin: 0 auto;
+	color: skyblue;
+	font-weight: bolder;
+	font-size: 20px;
+
+}
+
+.player2{
+	margin: 0 auto;
+	
+	color: salmon;
+	font-weight: bolder;
+	font-size: 20px;
+}
+
+
+.box{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	background-color:black;
+	line-height: 50px;
+}
+
+
+
+
+.dot{
+	position: absolute;
+	height: 15px;
+	width: 15px;
+	border-radius: 100%;
+	background-color: pink;		
+	z-index: 1000;	
+}
+
+.line{
+	position: absolute;
+	background-color: whitesmoke;	
+	cursor: pointer;
+	z-index: 1;	
+
+}
+
+.lineh{
+	height: 5px;
+	width: 50px;
+}
+
+.linev{
+	height: 50px;
+	width: 5px;
+}
+
+.line:hover{
+	background-color: blue;
+}
+
+.line-active{
+	background-color: rgb(66, 162, 66) ;
+}
+
