@@ -5,7 +5,6 @@ btn.addEventListener("click",()=>{
 	 body.style.backgroundColor="black"});
 
 let btn1=document.querySelector("#white");
-// let body1=document.querySelector("body");
 let mode2="dark"
 btn1.addEventListener("click",()=>{
 	 body.style.backgroundColor="white"});
